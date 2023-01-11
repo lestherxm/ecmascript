@@ -1,0 +1,17 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "Evaluating ECMAScript Features from ES6 to Today",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript",
+    "ECMAScript",
+    "JS"
+  ],
+  "author": "Lesther Xitumul Manuel <lestherxm@gmail.com>",
+  "license": "MIT",
+  "type": "module"
+}
