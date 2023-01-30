@@ -12,12 +12,12 @@ myFunction(true)
     .then(response => console.log(response))
     .catch(err => console.log(err))
     .finally(()=>{
-        console.log('finalizado jeje');
+        console.log('finalizado true');
     });
     
-myFunction(false)
-    .then(response => console.log(response))
-    .catch(err => console.log(err))
-    .finally(()=>{
-        console.log('finalizado jeje');
-    });
+// myFunction(false)
+//     .then(response => console.log(response))
+//     .catch(err => console.log(err))
+//     .finally(()=>{
+//         console.log('finalizado false')
+//     });
