@@ -45,8 +45,10 @@ let country = 'GT';
 // El spread operator/ operador de propagacion
 // Realiza una desestructuracion implicita, en este caso
 // Hace que a data, se le asignen las propiedades del objeto person, y no el objeto como tal
-let data = {...person, country};
-console.log(data);
+let data1 = {person, country};
+let data2 = {...person, country};
+console.log(data1); // { person: { name: 'lesther', age: 28 }, country: 'GT' }
+console.log(data2); // { name: 'lesther', age: 28, country: 'GT' }
 
 //* rest
 
@@ -57,6 +59,11 @@ function sum(num, ...values){
     return num + values[0];
 }
 
-sum(1,2,3,4,5);
-
+console.log(sum(1,2,3,4,5)); 
+/*
+    4
+    [ 2, 3, 4, 5 ]
+    3
+    3
+*/
 
